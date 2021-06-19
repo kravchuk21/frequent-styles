@@ -1,0 +1,31 @@
+{
+  "name": "frequent-styles",
+  "version": "1.0.0",
+  "description": "A package of commonly used styles",
+  "main": "index.min.css",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladKrauchuk/frequent-styles.git"
+  },
+  "keywords": [
+    "css",
+    "styles",
+    "classes"
+  ],
+  "author": "Harold Reevse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladKrauchuk/frequent-styles/issues"
+  },
+  "homepage": "https://github.com/VladKrauchuk/frequent-styles#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^6.0.0"
+  }
+}

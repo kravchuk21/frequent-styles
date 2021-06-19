@@ -1,0 +1,22 @@
+$space-amounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
+$sides: (top: t, bottom: b, left: l, right: r);
+
+@each $space in $space-amounts {
+  @each $side, $short-side in $sides {
+    .m#{$short-side}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .m-#{$space} {
+      margin: #{$space}px !important;
+    }
+
+    .p#{$short-side}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+
+    .p-#{$space} {
+      padding: #{$space}px !important;
+    }
+  }
+}
