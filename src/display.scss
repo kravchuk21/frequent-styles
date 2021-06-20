@@ -70,42 +70,10 @@
   margin-right: auto;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-@for $i from 0 through 10 {
-  .opacity-#{$i} {
-    opacity: $i / 10;
-  }
-}
-
 .pos-r {
   position: relative;
 }
 
 .pos-a {
   position: absolute;
-}
-
-.cu-p {
-  cursor: pointer;
 }
